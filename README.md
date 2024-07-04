@@ -12,4 +12,6 @@ Tutorial (bias)
 - Use the master_bias.sh submission script, as this will carry the biased JSON through the iterations whereas the original master will not 
 
 Update July24
-- Updates to ESMFold, ProteinMPNN and the BC4 itself has stopped the current set of scripts from being able to run, so will be updated in due course so alternative MPNN models (soluble, ligand, membrane) can be integrated. 
+- Updates to BC4 has resulted in some of these modules being removed and therefore scripts are currently unsuable
+- Scripts will be updated to allow running of new MPNN modules (Soluble, membrane and ligand) alongside ESM3 structure prediction (or AF3 when/if open source)
+
